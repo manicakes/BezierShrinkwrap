@@ -1,15 +1,26 @@
 # BezierShrinkwrap
 
-[![CI Status](http://img.shields.io/travis/Mani Ghasemlou/BezierShrinkwrap.svg?style=flat)](https://travis-ci.org/Mani Ghasemlou/BezierShrinkwrap)
-[![Version](https://img.shields.io/cocoapods/v/BezierShrinkwrap.svg?style=flat)](http://cocoapods.org/pods/BezierShrinkwrap)
-[![License](https://img.shields.io/cocoapods/l/BezierShrinkwrap.svg?style=flat)](http://cocoapods.org/pods/BezierShrinkwrap)
-[![Platform](https://img.shields.io/cocoapods/p/BezierShrinkwrap.svg?style=flat)](http://cocoapods.org/pods/BezierShrinkwrap)
+The purpose of this library is to provide a rough outline for an image that has an alpha background.
+
+The outline is provided as a `UIBezierPath`. The way to obtain it is via one of two methods provided an a extension to `UIImageView`:
+
+```
+  @IBOutlet weak imageView : UIImageView!
+
+  override func viewDidAppear() {
+    super.viewDidAppear()
+    
+    imageView.getBezierOutline(10, margin: 10) // synchronous
+
+    imageView.getBezierOutlineAsync(10, margin : 10) { (bezier : UIBezierPath) -> Void in
+      // completion block
+    }
+  }
+```
 
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -22,7 +33,7 @@ pod "BezierShrinkwrap"
 
 ## Author
 
-Mani Ghasemlou, mghasemlou@contentanalyst.com
+Mani Ghasemlou, mani.ghasemlou@icloud.com
 
 ## License
 

@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BezierShrinkwrap"
+  s.homepage         = "https://github.com/manicakes/BezierShrinkwrap"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Mani Ghasemlou" => "mghasemlou@contentanalyst.com" }
+  s.author           = { "Mani Ghasemlou" => "mani.ghasemlou@icloud.com" }
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BezierShrinkwrap.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'BezierShrinkwrap' => ['Pod/Assets/*.png']
-  }
+#  s.resource_bundles = {
+#    'BezierShrinkwrap' => ['Pod/Assets/*.png']
+#  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
