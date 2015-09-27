@@ -1,0 +1,14 @@
+PODS:
+  - BezierShrinkwrap (0.1.0)
+
+DEPENDENCIES:
+  - BezierShrinkwrap (from `../`)
+
+EXTERNAL SOURCES:
+  BezierShrinkwrap:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BezierShrinkwrap: 4fed93da2d857437e8b2c198640c730d82c0f4ee
+
+COCOAPODS: 0.38.2

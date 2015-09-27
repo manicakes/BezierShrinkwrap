@@ -1,0 +1,6 @@
+framework module BezierShrinkwrap {
+  umbrella header "BezierShrinkwrap-umbrella.h"
+
+  export *
+  module * { export * }
+}

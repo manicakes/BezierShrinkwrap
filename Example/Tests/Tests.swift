@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import BezierShrinkwrap
+//import BezierShrinkwrap
 
 class Tests: XCTestCase {
     

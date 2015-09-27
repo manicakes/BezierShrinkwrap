@@ -1,0 +1,25 @@
+{
+  "name": "BezierShrinkwrap",
+  "version": "0.1.0",
+  "summary": "A short description of BezierShrinkwrap.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/BezierShrinkwrap",
+  "license": "MIT",
+  "authors": {
+    "Mani Ghasemlou": "mghasemlou@contentanalyst.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/BezierShrinkwrap.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "BezierShrinkwrap": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

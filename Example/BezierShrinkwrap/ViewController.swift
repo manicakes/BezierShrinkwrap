@@ -10,11 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var image: MGImageView!
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var stepField: UITextField!
+    @IBOutlet weak var marginField: UITextField!
+    
+    @IBAction func goButtonPressed(sender : AnyObject) {
+        image.stepValue = Int(stepField.text!)
+        image.marginValue = Int(marginField.text!)
+        image.drawBezier()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        image.stepValue = Int(stepField.text!)
+        image.marginValue = Int(marginField.text!)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

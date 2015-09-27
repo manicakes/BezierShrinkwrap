@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0A1C839E864D2EF119F12C5E2A01F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85B315A2BDBB705CC2E9404BDA9EB11 /* Foundation.framework */; };
+		2F2187E67FE753CFFA228B29D1817728 /* BezierShrinkwrap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9922E38F740EE5367997808832CF7DC1 /* BezierShrinkwrap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		440CFDDAF61BF3588115892A449AA2B1 /* Pods-BezierShrinkwrap_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C13D07AEBA61DEC4C369EB925DE925 /* Pods-BezierShrinkwrap_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A4F9267F01AEE479078BC28450F8BCE /* BezierShrinkwrap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 178D6A388B7E1F69CD1B7EE442994404 /* BezierShrinkwrap.bundle */; };
+		985580FE04B4DB8BA40A20F204C9C0B0 /* Pods-BezierShrinkwrap_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E65D899C768FCC34C5E56205CA2AE72 /* Pods-BezierShrinkwrap_Example-dummy.m */; };
+		9D79515A0348C021CC3AFADDACE59B1D /* Pods-BezierShrinkwrap_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6DE54D4172F6D57FC632667B876D187 /* Pods-BezierShrinkwrap_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1830A2DF88215FE0E94E1CDBFDBB503 /* BezierShrinkwrap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF5E20A7A1EE63F81AF1BC8A1A09E45 /* BezierShrinkwrap-dummy.m */; };
+		B22D9AA5FDF12A075B60A04A4DE1A2A3 /* UIImage+AlphaDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92754872C8F61ACC887145112312B39 /* UIImage+AlphaDetect.swift */; };
+		C8E72B9FE3DEAEFAC6557D2539D51E83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85B315A2BDBB705CC2E9404BDA9EB11 /* Foundation.framework */; };
+		C9DDCD732B4E800AC30F2E2F44A11AA2 /* UIImageView+BezierOutline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E465C57CF6A9CB461EB2E1B2423D8B /* UIImageView+BezierOutline.swift */; };
+		EEB00AB72F7354ABF1C3E014C537F259 /* Pods-BezierShrinkwrap_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A6C6596B053D2FC1DF508937C39B6E /* Pods-BezierShrinkwrap_Tests-dummy.m */; };
+		FED9148C1B2A7B0C0CBB6CD90E97FFD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85B315A2BDBB705CC2E9404BDA9EB11 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A3F65427E23440B452D008ED84AA09A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C91D91BCDC07999A151E84C056626ECB;
+			remoteInfo = BezierShrinkwrap;
+		};
+		58D16DEB6B9912361BDA099B9285F0A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A9AC780F46680BC084C6731BE32D06E;
+			remoteInfo = "BezierShrinkwrap-BezierShrinkwrap";
+		};
+		72DCF0575C905C4679AF7CFDEAEFC2DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C91D91BCDC07999A151E84C056626ECB;
+			remoteInfo = BezierShrinkwrap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		178D6A388B7E1F69CD1B7EE442994404 /* BezierShrinkwrap.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierShrinkwrap.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E65D899C768FCC34C5E56205CA2AE72 /* Pods-BezierShrinkwrap_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BezierShrinkwrap_Example-dummy.m"; sourceTree = "<group>"; };
+		26046CF7DEB29E6563A71DB0C62CFE4B /* Pods_BezierShrinkwrap_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BezierShrinkwrap_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2908D4239CDA062DE253699DF1221A2B /* BezierShrinkwrap-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BezierShrinkwrap-Private.xcconfig"; sourceTree = "<group>"; };
+		2CBF9A5BF7BE2A667BF260613FE33A0C /* Pods-BezierShrinkwrap_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BezierShrinkwrap_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3BF5E20A7A1EE63F81AF1BC8A1A09E45 /* BezierShrinkwrap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BezierShrinkwrap-dummy.m"; sourceTree = "<group>"; };
+		41268CC6D8A91939264ED9077DEECD45 /* Pods-BezierShrinkwrap_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BezierShrinkwrap_Tests.modulemap"; sourceTree = "<group>"; };
+		49B5682AFEE20235DDAAE01B5E5155F8 /* Pods-BezierShrinkwrap_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BezierShrinkwrap_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4DE32B12BF9315AAB9569DCEB008DF0F /* Pods-BezierShrinkwrap_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BezierShrinkwrap_Example-frameworks.sh"; sourceTree = "<group>"; };
+		595A91CCE49A157B9BF24EAA92638503 /* Pods-BezierShrinkwrap_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BezierShrinkwrap_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5CE2FC2ADC26F133E066D11DF468F1D4 /* BezierShrinkwrap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BezierShrinkwrap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5DDA9569AE81FF254DC2271D7EE293 /* Pods-BezierShrinkwrap_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BezierShrinkwrap_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E61FA46F55899DD396ECF0377512A93 /* Pods-BezierShrinkwrap_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BezierShrinkwrap_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63FBE3F6E2A2691C6FBBF7455D43905D /* BezierShrinkwrap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BezierShrinkwrap.modulemap; sourceTree = "<group>"; };
+		66C13D07AEBA61DEC4C369EB925DE925 /* Pods-BezierShrinkwrap_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BezierShrinkwrap_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6824DD5FA315F704A9E724D64304E5C0 /* Pods-BezierShrinkwrap_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BezierShrinkwrap_Tests-resources.sh"; sourceTree = "<group>"; };
+		68558A3B468EBB787B5A6CE8DC9A0222 /* Pods-BezierShrinkwrap_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BezierShrinkwrap_Example.modulemap"; sourceTree = "<group>"; };
+		691521C0BDB0233035A854C3F0AE2E7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E465C57CF6A9CB461EB2E1B2423D8B /* UIImageView+BezierOutline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImageView+BezierOutline.swift"; sourceTree = "<group>"; };
+		8BC401B991EEC5A6F77D490DBD74C136 /* Pods-BezierShrinkwrap_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BezierShrinkwrap_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9922E38F740EE5367997808832CF7DC1 /* BezierShrinkwrap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BezierShrinkwrap-umbrella.h"; sourceTree = "<group>"; };
+		9E9E78BD9A9D4AFE87E387363595A971 /* BezierShrinkwrap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BezierShrinkwrap-prefix.pch"; sourceTree = "<group>"; };
+		A22DF4C0BE1F005C8254A25E938C46D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2E3BB429C3B6A0B3160DE0FC73E1B83 /* Pods-BezierShrinkwrap_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BezierShrinkwrap_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6DE54D4172F6D57FC632667B876D187 /* Pods-BezierShrinkwrap_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BezierShrinkwrap_Example-umbrella.h"; sourceTree = "<group>"; };
+		A92754872C8F61ACC887145112312B39 /* UIImage+AlphaDetect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+AlphaDetect.swift"; sourceTree = "<group>"; };
+		A9CF5714967980174076B120D368D40D /* Pods-BezierShrinkwrap_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BezierShrinkwrap_Example-resources.sh"; sourceTree = "<group>"; };
+		AFBDA50FFB65789351D55DB987175598 /* Pods_BezierShrinkwrap_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BezierShrinkwrap_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B296B08FA3B01A61A3419FE9D23C7BF9 /* Pods-BezierShrinkwrap_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BezierShrinkwrap_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C85B315A2BDBB705CC2E9404BDA9EB11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F154ABB085B0AAFF77307D5A26F9D12D /* BezierShrinkwrap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BezierShrinkwrap.xcconfig; sourceTree = "<group>"; };
+		F572B05D052AE789D6C51F839B9227F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A6C6596B053D2FC1DF508937C39B6E /* Pods-BezierShrinkwrap_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BezierShrinkwrap_Tests-dummy.m"; sourceTree = "<group>"; };
+		FC03BCD79E58EB01CB978833555EDC33 /* Pods-BezierShrinkwrap_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BezierShrinkwrap_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A675CE47B135E282B8B4A669D19672EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E72B9FE3DEAEFAC6557D2539D51E83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CE9AA569AD6A203D38752C86DB26EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5E20A0E951F89FE3DF979693B0F948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED9148C1B2A7B0C0CBB6CD90E97FFD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D51AA8DFDBEC1CBCA00D4C37D511AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0A1C839E864D2EF119F12C5E2A01F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0027F2620050801F39AAA38BAACCE947 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A92754872C8F61ACC887145112312B39 /* UIImage+AlphaDetect.swift */,
+				89E465C57CF6A9CB461EB2E1B2423D8B /* UIImageView+BezierOutline.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3E60753C086DCB49F2E86556B52DE481 /* BezierShrinkwrap */ = {
+			isa = PBXGroup;
+			children = (
+				F584DC2440886226466A306BAEDE2874 /* Pod */,
+				E21E42629A55838CC743D8F41C5C71AC /* Support Files */,
+			);
+			name = BezierShrinkwrap;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C85B315A2BDBB705CC2E9404BDA9EB11 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5AEE85FA427A75C1AE15BA3495989957 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC2B7B8B4877B9B32822E7669B470DAC /* Pods-BezierShrinkwrap_Example */,
+				5E9F4301F12C0AB73D0D0897B0E089F8 /* Pods-BezierShrinkwrap_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E9F4301F12C0AB73D0D0897B0E089F8 /* Pods-BezierShrinkwrap_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F572B05D052AE789D6C51F839B9227F3 /* Info.plist */,
+				41268CC6D8A91939264ED9077DEECD45 /* Pods-BezierShrinkwrap_Tests.modulemap */,
+				8BC401B991EEC5A6F77D490DBD74C136 /* Pods-BezierShrinkwrap_Tests-acknowledgements.markdown */,
+				FC03BCD79E58EB01CB978833555EDC33 /* Pods-BezierShrinkwrap_Tests-acknowledgements.plist */,
+				F5A6C6596B053D2FC1DF508937C39B6E /* Pods-BezierShrinkwrap_Tests-dummy.m */,
+				595A91CCE49A157B9BF24EAA92638503 /* Pods-BezierShrinkwrap_Tests-frameworks.sh */,
+				6824DD5FA315F704A9E724D64304E5C0 /* Pods-BezierShrinkwrap_Tests-resources.sh */,
+				66C13D07AEBA61DEC4C369EB925DE925 /* Pods-BezierShrinkwrap_Tests-umbrella.h */,
+				A2E3BB429C3B6A0B3160DE0FC73E1B83 /* Pods-BezierShrinkwrap_Tests.debug.xcconfig */,
+				49B5682AFEE20235DDAAE01B5E5155F8 /* Pods-BezierShrinkwrap_Tests.release.xcconfig */,
+			);
+			name = "Pods-BezierShrinkwrap_Tests";
+			path = "Target Support Files/Pods-BezierShrinkwrap_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				B4DF0B4C2BA1870B5C5F1CC81E415178 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				5AEE85FA427A75C1AE15BA3495989957 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B4DF0B4C2BA1870B5C5F1CC81E415178 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E60753C086DCB49F2E86556B52DE481 /* BezierShrinkwrap */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC2B7B8B4877B9B32822E7669B470DAC /* Pods-BezierShrinkwrap_Example */ = {
+			isa = PBXGroup;
+			children = (
+				691521C0BDB0233035A854C3F0AE2E7E /* Info.plist */,
+				68558A3B468EBB787B5A6CE8DC9A0222 /* Pods-BezierShrinkwrap_Example.modulemap */,
+				5E61FA46F55899DD396ECF0377512A93 /* Pods-BezierShrinkwrap_Example-acknowledgements.markdown */,
+				5E5DDA9569AE81FF254DC2271D7EE293 /* Pods-BezierShrinkwrap_Example-acknowledgements.plist */,
+				1E65D899C768FCC34C5E56205CA2AE72 /* Pods-BezierShrinkwrap_Example-dummy.m */,
+				4DE32B12BF9315AAB9569DCEB008DF0F /* Pods-BezierShrinkwrap_Example-frameworks.sh */,
+				A9CF5714967980174076B120D368D40D /* Pods-BezierShrinkwrap_Example-resources.sh */,
+				A6DE54D4172F6D57FC632667B876D187 /* Pods-BezierShrinkwrap_Example-umbrella.h */,
+				2CBF9A5BF7BE2A667BF260613FE33A0C /* Pods-BezierShrinkwrap_Example.debug.xcconfig */,
+				B296B08FA3B01A61A3419FE9D23C7BF9 /* Pods-BezierShrinkwrap_Example.release.xcconfig */,
+			);
+			name = "Pods-BezierShrinkwrap_Example";
+			path = "Target Support Files/Pods-BezierShrinkwrap_Example";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178D6A388B7E1F69CD1B7EE442994404 /* BezierShrinkwrap.bundle */,
+				5CE2FC2ADC26F133E066D11DF468F1D4 /* BezierShrinkwrap.framework */,
+				AFBDA50FFB65789351D55DB987175598 /* Pods_BezierShrinkwrap_Example.framework */,
+				26046CF7DEB29E6563A71DB0C62CFE4B /* Pods_BezierShrinkwrap_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E21E42629A55838CC743D8F41C5C71AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63FBE3F6E2A2691C6FBBF7455D43905D /* BezierShrinkwrap.modulemap */,
+				F154ABB085B0AAFF77307D5A26F9D12D /* BezierShrinkwrap.xcconfig */,
+				2908D4239CDA062DE253699DF1221A2B /* BezierShrinkwrap-Private.xcconfig */,
+				3BF5E20A7A1EE63F81AF1BC8A1A09E45 /* BezierShrinkwrap-dummy.m */,
+				9E9E78BD9A9D4AFE87E387363595A971 /* BezierShrinkwrap-prefix.pch */,
+				9922E38F740EE5367997808832CF7DC1 /* BezierShrinkwrap-umbrella.h */,
+				A22DF4C0BE1F005C8254A25E938C46D9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BezierShrinkwrap";
+			sourceTree = "<group>";
+		};
+		F584DC2440886226466A306BAEDE2874 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0027F2620050801F39AAA38BAACCE947 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B7E56DECE7D3E8C5A93E421B9AB0929 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2187E67FE753CFFA228B29D1817728 /* BezierShrinkwrap-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5468093F6837E8FEA5A8E5052E580FDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D79515A0348C021CC3AFADDACE59B1D /* Pods-BezierShrinkwrap_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C25F97B5C3A2C2D70F7E49CDD460CC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440CFDDAF61BF3588115892A449AA2B1 /* Pods-BezierShrinkwrap_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7A9AC780F46680BC084C6731BE32D06E /* BezierShrinkwrap-BezierShrinkwrap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC32F39504F1EB550F2AD49EB709475E /* Build configuration list for PBXNativeTarget "BezierShrinkwrap-BezierShrinkwrap" */;
+			buildPhases = (
+				09E451D9F8078460D1F8382BD10059E9 /* Sources */,
+				B9CE9AA569AD6A203D38752C86DB26EF /* Frameworks */,
+				31B13108153AB510531F481F1CAE3287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BezierShrinkwrap-BezierShrinkwrap";
+			productName = "BezierShrinkwrap-BezierShrinkwrap";
+			productReference = 178D6A388B7E1F69CD1B7EE442994404 /* BezierShrinkwrap.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		918FF8A3EFE404BDF28328F69B3E626C /* Pods-BezierShrinkwrap_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270A624982F1467248F79E757EEE006E /* Build configuration list for PBXNativeTarget "Pods-BezierShrinkwrap_Tests" */;
+			buildPhases = (
+				EB84E165E2C9F47F9C6680371D3A7FC6 /* Sources */,
+				A675CE47B135E282B8B4A669D19672EA /* Frameworks */,
+				6C25F97B5C3A2C2D70F7E49CDD460CC7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66A6EBEDEBA07D98459FE88E0718A1CE /* PBXTargetDependency */,
+			);
+			name = "Pods-BezierShrinkwrap_Tests";
+			productName = "Pods-BezierShrinkwrap_Tests";
+			productReference = 26046CF7DEB29E6563A71DB0C62CFE4B /* Pods_BezierShrinkwrap_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C91D91BCDC07999A151E84C056626ECB /* BezierShrinkwrap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8448134AEF09BC7556FCB8F96A48F1C5 /* Build configuration list for PBXNativeTarget "BezierShrinkwrap" */;
+			buildPhases = (
+				803753EA8B7C779B0240FA4177107FD0 /* Sources */,
+				BD5E20A0E951F89FE3DF979693B0F948 /* Frameworks */,
+				B176F58B0DD0220CA6194B24C3C5B5D8 /* Resources */,
+				0B7E56DECE7D3E8C5A93E421B9AB0929 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23B19D4C2F9E034734F4533A3BF276E4 /* PBXTargetDependency */,
+			);
+			name = BezierShrinkwrap;
+			productName = BezierShrinkwrap;
+			productReference = 5CE2FC2ADC26F133E066D11DF468F1D4 /* BezierShrinkwrap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB14EDE0BAE4997A78CEE234CDE53C20 /* Pods-BezierShrinkwrap_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1BAFFEDB1FA9E3C79D697B7C2DE009 /* Build configuration list for PBXNativeTarget "Pods-BezierShrinkwrap_Example" */;
+			buildPhases = (
+				3EDFFF42DA8C3CEC53568B8F1D598EBB /* Sources */,
+				D9D51AA8DFDBEC1CBCA00D4C37D511AA /* Frameworks */,
+				5468093F6837E8FEA5A8E5052E580FDA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70EA0FD6808E9BF1B8CA1DD1A1C6DE90 /* PBXTargetDependency */,
+			);
+			name = "Pods-BezierShrinkwrap_Example";
+			productName = "Pods-BezierShrinkwrap_Example";
+			productReference = AFBDA50FFB65789351D55DB987175598 /* Pods_BezierShrinkwrap_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C91D91BCDC07999A151E84C056626ECB /* BezierShrinkwrap */,
+				7A9AC780F46680BC084C6731BE32D06E /* BezierShrinkwrap-BezierShrinkwrap */,
+				DB14EDE0BAE4997A78CEE234CDE53C20 /* Pods-BezierShrinkwrap_Example */,
+				918FF8A3EFE404BDF28328F69B3E626C /* Pods-BezierShrinkwrap_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31B13108153AB510531F481F1CAE3287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B176F58B0DD0220CA6194B24C3C5B5D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4F9267F01AEE479078BC28450F8BCE /* BezierShrinkwrap.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09E451D9F8078460D1F8382BD10059E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDFFF42DA8C3CEC53568B8F1D598EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985580FE04B4DB8BA40A20F204C9C0B0 /* Pods-BezierShrinkwrap_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803753EA8B7C779B0240FA4177107FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1830A2DF88215FE0E94E1CDBFDBB503 /* BezierShrinkwrap-dummy.m in Sources */,
+				B22D9AA5FDF12A075B60A04A4DE1A2A3 /* UIImage+AlphaDetect.swift in Sources */,
+				C9DDCD732B4E800AC30F2E2F44A11AA2 /* UIImageView+BezierOutline.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB84E165E2C9F47F9C6680371D3A7FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB00AB72F7354ABF1C3E014C537F259 /* Pods-BezierShrinkwrap_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23B19D4C2F9E034734F4533A3BF276E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BezierShrinkwrap-BezierShrinkwrap";
+			target = 7A9AC780F46680BC084C6731BE32D06E /* BezierShrinkwrap-BezierShrinkwrap */;
+			targetProxy = 58D16DEB6B9912361BDA099B9285F0A0 /* PBXContainerItemProxy */;
+		};
+		66A6EBEDEBA07D98459FE88E0718A1CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BezierShrinkwrap;
+			target = C91D91BCDC07999A151E84C056626ECB /* BezierShrinkwrap */;
+			targetProxy = 4A3F65427E23440B452D008ED84AA09A /* PBXContainerItemProxy */;
+		};
+		70EA0FD6808E9BF1B8CA1DD1A1C6DE90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BezierShrinkwrap;
+			target = C91D91BCDC07999A151E84C056626ECB /* BezierShrinkwrap */;
+			targetProxy = 72DCF0575C905C4679AF7CFDEAEFC2DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		607426A7358E34E997F45FD82713FC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2908D4239CDA062DE253699DF1221A2B /* BezierShrinkwrap-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BezierShrinkwrap/BezierShrinkwrap-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BezierShrinkwrap/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BezierShrinkwrap/BezierShrinkwrap.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BezierShrinkwrap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66EDF415E5C95FCF84DE2129DEAC279C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2908D4239CDA062DE253699DF1221A2B /* BezierShrinkwrap-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BezierShrinkwrap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BB10B5F1C6DCDA273BC6F01DA76C352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CBF9A5BF7BE2A667BF260613FE33A0C /* Pods-BezierShrinkwrap_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BezierShrinkwrap_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-BezierShrinkwrap_Example/Pods-BezierShrinkwrap_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BezierShrinkwrap_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A65FD70C7D83E0FDA34F4A5F70C0282D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2908D4239CDA062DE253699DF1221A2B /* BezierShrinkwrap-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BezierShrinkwrap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B95A53EE06AF10388290260BDF9A5C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2908D4239CDA062DE253699DF1221A2B /* BezierShrinkwrap-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BezierShrinkwrap/BezierShrinkwrap-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BezierShrinkwrap/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BezierShrinkwrap/BezierShrinkwrap.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BezierShrinkwrap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF5C6D24301B57E73E14A884CB2BCFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E3BB429C3B6A0B3160DE0FC73E1B83 /* Pods-BezierShrinkwrap_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BezierShrinkwrap_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-BezierShrinkwrap_Tests/Pods-BezierShrinkwrap_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BezierShrinkwrap_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E37D8FEF0553AA6707BB717ED2CF5596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B296B08FA3B01A61A3419FE9D23C7BF9 /* Pods-BezierShrinkwrap_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BezierShrinkwrap_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-BezierShrinkwrap_Example/Pods-BezierShrinkwrap_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BezierShrinkwrap_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE5F3D92CC253BF2E8CC400176B561E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B5682AFEE20235DDAAE01B5E5155F8 /* Pods-BezierShrinkwrap_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BezierShrinkwrap_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-BezierShrinkwrap_Tests/Pods-BezierShrinkwrap_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BezierShrinkwrap_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		270A624982F1467248F79E757EEE006E /* Build configuration list for PBXNativeTarget "Pods-BezierShrinkwrap_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5C6D24301B57E73E14A884CB2BCFD5 /* Debug */,
+				EE5F3D92CC253BF2E8CC400176B561E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8448134AEF09BC7556FCB8F96A48F1C5 /* Build configuration list for PBXNativeTarget "BezierShrinkwrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95A53EE06AF10388290260BDF9A5C1C /* Debug */,
+				607426A7358E34E997F45FD82713FC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1BAFFEDB1FA9E3C79D697B7C2DE009 /* Build configuration list for PBXNativeTarget "Pods-BezierShrinkwrap_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB10B5F1C6DCDA273BC6F01DA76C352 /* Debug */,
+				E37D8FEF0553AA6707BB717ED2CF5596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC32F39504F1EB550F2AD49EB709475E /* Build configuration list for PBXNativeTarget "BezierShrinkwrap-BezierShrinkwrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65FD70C7D83E0FDA34F4A5F70C0282D /* Debug */,
+				66EDF415E5C95FCF84DE2129DEAC279C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
