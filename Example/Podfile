@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BezierShrinkwrap_Example', :exclusive => true do
+  pod "BezierShrinkwrap", :path => "../"
+end
+
+target 'BezierShrinkwrap_Tests', :exclusive => true do
+  pod "BezierShrinkwrap", :path => "../"
+
+  
+end
