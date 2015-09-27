@@ -9,12 +9,14 @@
 import Foundation
 
 extension UIImage {
-    func getIsAlphaArray() -> [[Bool]] {
-        var result : [[Bool]] = []
+    func getIsAlphaArray() -> NSArray {
         
         let imageRef : CGImageRef = self.CGImage!
         let width = CGImageGetWidth(imageRef)
         let height = CGImageGetHeight(imageRef)
+        
+        let result = NSMutableArray(capacity: width)
+        
         let colorSpace = CGColorSpaceCreateDeviceRGB()
         let rawData = UnsafeMutablePointer<CUnsignedChar>(calloc(height*width*4, sizeof(CUnsignedChar)))
         let bytesPerPixel = 4
@@ -24,11 +26,11 @@ extension UIImage {
         CGContextDrawImage(context, CGRectMake(0, 0, CGFloat(width), CGFloat(height)), imageRef)
         
         for (var x = 0; x < Int(self.size.width); ++x) {
-            result.append([])
+            result.addObject(NSMutableArray(capacity: height))
             for (var y = 0; y < Int(self.size.height); ++y) {
                 let byteIndex = (bytesPerRow * y) + x * bytesPerPixel
                 let isAlpha = (Double(rawData[byteIndex + 3]) / 255.0) == 0
-                result[x].append(isAlpha)
+                result.objectAtIndex(x).addObject(isAlpha)
             }
         }
         
